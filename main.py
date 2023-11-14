@@ -66,7 +66,7 @@ map_size = (100, 100)
 simulated_predictions = np.zeros(map_size)
 
 # Create a fixed circular ground truth
-initial_radius = 35
+initial_radius = 30
 center = (map_size[1] // 2, map_size[0] // 2)
 ground_truth = generate_circular_ground_truth(map_size, center, initial_radius)
 
